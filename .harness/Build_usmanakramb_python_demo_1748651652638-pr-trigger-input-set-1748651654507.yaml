@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_usmanakramb_python_demo_1748651652638-pr-trigger-input-set
+  identifier: Build_usmanakramb_python_demo_1748651652638prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_usmanakramb_python_demo_1748651652638
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
