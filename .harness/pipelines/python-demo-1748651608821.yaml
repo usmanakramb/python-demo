@@ -20,15 +20,6 @@ pipeline:
           execution:
             steps:
               - step:
-                  identifier: runlinter
-                  name: run linter
-                  spec:
-                    command: |-
-                      pip install flake8
-                      flake8 .
-                  timeout: ""
-                  type: Run
-              - step:
                   type: Run
                   identifier: build_python_app
                   name: Build Python App
